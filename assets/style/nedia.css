@@ -1,0 +1,178 @@
+@media (min-width: 300px) {
+    .fs-72 {
+        font-size: 24px !important;
+    }
+
+    .fs-56 {
+        font-size: 25px !important;
+    }
+
+    .fs-64 {
+        font-size: 24px !important;
+    }
+
+    .fs-24 {
+        font-size: 20px !important;
+    }
+
+    .custom-input {
+        padding: 15px 12px;
+    }
+
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .cont-1 {
+        padding: 0px 16px;
+    }
+}
+
+@media (min-width: 640px) {
+    .fs-72 {
+        font-size: 32px !important;
+    }
+
+    .fs-56 {
+        font-size: 28px !important;
+    }
+
+    .fs-64 {
+        font-size: 30px !important;
+    }
+
+    .download-card img {
+        max-width: 70px;
+    }
+
+    .cont-1 {
+        padding: 0px 23px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .fs-72 {
+        font-size: 40px !important;
+    }
+
+    .fs-56 {
+        font-size: 34px !important;
+    }
+
+    .fs-64 {
+        font-size: 40px !important;
+    }
+
+    .fs-24 {
+        font-size: 22px !important;
+    }
+
+    .custom-input {
+        padding: 18px 15px;
+    }
+
+    .mt-50 {
+        margin-top: 20px;
+    }
+
+    .cont-1 {
+        padding: 0px 34px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fs-72 {
+        font-size: 56px !important;
+    }
+
+    .fs-56 {
+        font-size: 46px !important;
+    }
+
+    .fs-64 {
+        font-size: 52px !important;
+    }
+
+    .fs-24 {
+        font-size: 24px !important;
+    }
+
+    .custom-input {
+        padding: 23px 17px;
+    }
+
+    .mt-lg-8 {
+        margin-top: 96px;
+    }
+
+    .mt-md-7 {
+        margin-top: 84px;
+    }
+
+    .mt-sm-6 {
+        margin-top: 72px;
+    }
+
+    .mt-5 {
+        margin-top: 60px;
+    }
+
+    .download-card img {
+        max-width: 90px;
+    }
+
+    .cont-1 {
+        padding: 0px 42px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .fs-72 {
+        font-size: 72px !important;
+    }
+
+    .fs-56 {
+        font-size: 56px !important;
+    }
+
+    .fs-64 {
+        font-size: 64px !important;
+    }
+
+    .cont-1 {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .row-1 {
+        flex-direction: column-reverse !important;
+    }
+
+    .col-md-5,
+    .col-md-7 {
+        flex: 1;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 40px;
+    }
+
+    .mt-196 {
+        margin-top: 30px;
+    }
+
+    .b-0 {
+        bottom: -22px !important;
+    }
+
+    .fs-40 {
+        font-size: 30px !important;
+    }
+
+    .fs-4 {
+        font-size: 16px !important;
+    }
+}

@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog - Recent Events</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/nedia.css">
@@ -14,20 +16,21 @@
 
 <body>
 
+    <!-- johnny -->
     <div class="container py-5">
-        <div class="bg-black p-4 rounded-3" style="max-width: 1410px; margin: auto;">
-            <div class="row flex-md-row flex-column-reverse">
+        <div class="bg-black position-relative p-4 rounded-3">
+            <div class="row row-1 flex-md-row flex-column-reverse">
                 <!-- Left Column -->
-                <div class="col-md-5 col-12 position-relative">
+                <div class="col-md-5 col-12">
                     <div class="d-flex flex-column justify-content-between h-100">
                         <!-- Pagination (Fraction) -->
-                        <div class="swiper-pagination text-white text-center"
-                            style="position: absolute; left: -185px; top: 0px; font-size: 2rem;">
+                        <div
+                            class="swiper-pagination w-auto text-white text-center position-absolute pag-btn left-40 top-0 fs-40 fw-bold">
                             1 / 2
                         </div>
 
                         <!-- Navigation Buttons -->
-                        <div class="position-relative mb-5 mt-4" style="margin-top: 200px; top: 150px; ">
+                        <div class="mb-5 mt-4 position-absolute b-0 bottom-0 left-40 nev-btn">
                             <button class="swiper-button-prev text-black position-absolute bg-black"
                                 style="left: 10px; width: 60px; border: none;">
                                 <svg viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,24 +54,23 @@
 
                 <!-- Right Column with Swiper -->
                 <div class="col-md-7 col-12">
-                    <div class="swiper">
+                    <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <!-- Slide 1 -->
                             <div class="swiper-slide">
                                 <div class="d-flex flex-column justify-content-between">
-                                    <p class="text-white opacity-70" style="font-size: 1.25rem; line-height: 140%;">
-                                        The DJ knew exactly how to read the crowd and kept the energy up all night. Our
+                                    <p class="text-white opacity-70 fs-4 opacity-75">
+                                        He DJ knew exactly how to read the crowd and kept the energy up all night. Our
                                         corporate party was a huge success thanks to Dynamic Scene!
                                     </p>
-                                    <div class="d-flex align-items-center gap-3 mt-196">
-                                        <div class="rounded-circle border-4 border-white"
-                                            style="width: 96px; height: 96px; overflow: hidden;">
+                                    <div class="d-flex align-items-center gap-4 mt-196 pb-60 ">
+                                        <div class="border-white border-3 border-light">
                                             <img alt="img" loading="lazy" class="w-100 h-100 object-cover"
                                                 src="./assets/img/png/people.png">
                                         </div>
                                         <div class="d-flex flex-column gap-2">
-                                            <h3 class="text-white font-weight-bold">Johnny Doe</h3>
-                                            <a href="/" class="text-white">ipsum.com</a>
+                                            <h3 class="text-white fw-bolder fs-20">Johnny Doe</h3>
+                                            <a href="/" class="text-white text-decoration-none">ipsum.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,19 +78,18 @@
                             <!-- Slide 2 -->
                             <div class="swiper-slide">
                                 <div class="d-flex flex-column justify-content-between">
-                                    <p class="text-white opacity-70" style="font-size: 1.25rem; line-height: 140%;">
-                                        The DJ knew exactly how to read the crowd and kept the energy up all night. Our
+                                    <p class="text-white opacity-70 fs-4 opacity-75">
+                                        He DJ knew exactly how to read the crowd and kept the energy up all night. Our
                                         corporate party was a huge success thanks to Dynamic Scene!
                                     </p>
-                                    <div class="d-flex align-items-center gap-3 mt-6">
-                                        <div class="rounded-circle border-4 border-white"
-                                            style="width: 96px; height: 96px; overflow: hidden;">
+                                    <div class="d-flex align-items-center gap-4 mt-196">
+                                        <div class="border-white border-3 border-light">
                                             <img alt="img" loading="lazy" class="w-100 h-100 object-cover"
                                                 src="./assets/img/png/people.png">
                                         </div>
                                         <div class="d-flex flex-column gap-2">
-                                            <h3 class="text-white font-weight-bold">Johnny Doe</h3>
-                                            <a href="/" class="text-white">ipsum.com</a>
+                                            <h3 class="text-white fw-bolder fs-20">Johnny Doe</h3>
+                                            <a href="/" class="text-white text-decoration-none">ipsum.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,29 +101,102 @@
             </div>
         </div>
     </div>
+    <!-- Blog Section -->
+    <div class="container py-5">
+        <div class="row flex-column flex-md-row d-flex">
+            <!-- Left Column -->
+            <div class="col-md-3 col-12 mb-5 mb-md-0">
+                <div>
+                    <span
+                        class="border border-dark rounded-pill py-1 px-3 text-dark fw-semibold text-uppercase">Blog</span>
+                    <h1 class="mt-4 fw-semibold tc-black fs-64 position-relative w-100 m-w-249">
+                        Recent Events
+                        <div class="position-absolute slider-2" style="right: 0px; bottom: 0px;">
+                            <img src="./assets/img/png/flower.png" alt="flower" class="img-fluid"
+                                style="max-width: 52px;">
+                        </div>
+                    </h1>
+                </div>
+                <div class="d-flex gap-3 align-items-center mb-4">
+                    <button class="swiper-button-prev1 btn btn-light" style="width: 48px; height: 48px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43" fill="none">
+                            <path
+                                d="M9.8901 18.9222C8.1701 20.2122 8.1701 22.7944 9.8901 24.0844L22.7944 33.7508C24.9208 35.3418 27.9544 33.826 27.9544 31.1708L27.9544 11.8315C27.9544 9.17415 24.9186 7.6584 22.7944 9.25155L9.8901 18.9222ZM32.2501 34.4001C32.2501 34.6852 32.3634 34.9586 32.565 35.1602C32.7666 35.3618 33.04 35.4751 33.3251 35.4751C33.6102 35.4751 33.8836 35.3618 34.0852 35.1602C34.2868 34.9586 34.4001 34.6852 34.4001 34.4001L34.4001 8.60009C34.4001 8.31499 34.2868 8.04156 34.0852 7.83996C33.8836 7.63835 33.6102 7.5251 33.3251 7.5251C33.04 7.5251 32.7666 7.63835 32.565 7.83996C32.3634 8.04156 32.2501 8.31499 32.2501 8.60009L32.2501 34.4001Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="swiper-button-next1 btn btn-light" style="width: 48px; height: 48px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43" fill="none">
+                            <path
+                                d="M33.1099 18.9222C34.8299 20.2122 34.8299 22.7944 33.1099 24.0844L20.2056 33.7508C18.0792 35.3418 15.0456 33.826 15.0456 31.1708L15.0456 11.8315C15.0456 9.17415 18.0814 7.6584 20.2056 9.25155L33.1099 18.9222ZM10.7499 34.4001C10.7499 34.6852 10.6366 34.9586 10.435 35.1602C10.2334 35.3618 9.96001 35.4751 9.6749 35.4751C9.38979 35.4751 9.11636 35.3618 8.91476 35.1602C8.71316 34.9586 8.5999 34.6852 8.5999 34.4001L8.5999 8.60009C8.5999 8.31499 8.71316 8.04156 8.91476 7.83996C9.11636 7.63835 9.38979 7.5251 9.6749 7.5251C9.96001 7.5251 10.2334 7.63835 10.435 7.83996C10.6366 8.04156 10.7499 8.31499 10.7499 8.60009L10.7499 34.4001Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
 
-    <!-- Swiper JS and CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+            <!-- Right Column with Swiper for Second Slider -->
+            <div class="col-md-9 col-12">
+                <div class="swiper mySwiper-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="d-flex flex-column justify-content-between">
+                                <p class="text-white opacity-70 fs-4 opacity-75">Slider Content 1</p>
+                                <div class="d-flex align-items-center gap-4 mt-196">
+                                    <div class="border-white border-3 border-light">
+                                        <img alt="img" loading="lazy" class="w-100 h-100 object-cover"
+                                            src="./assets/img/png/people.png">
+                                    </div>
+                                    <div class="d-flex flex-column gap-2">
+                                        <h3 class="text-white fw-bolder fs-20">Slider Item 1</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="d-flex flex-column justify-content-between">
+                                <p class="text-white opacity-70 fs-4 opacity-75">Slider Content 2</p>
+                                <div class="d-flex align-items-center gap-4 mt-196">
+                                    <div class="border-white border-3 border-light">
+                                        <img alt="img" loading="lazy" class="w-100 h-100 object-cover"
+                                            src="./assets/img/png/people.png">
+                                    </div>
+                                    <div class="d-flex flex-column gap-2">
+                                        <h3 class="text-white fw-bolder fs-20">Slider Item 2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper', {
+        // Initialize first swiper instance
+        const swiper1 = new Swiper('.mySwiper', {
             loop: true,
+            spaceBetween: 10,
             navigation: {
                 nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'fraction',
-            },
+                prevEl: '.swiper-button-prev'
+            }
+        });
+
+        // Initialize second swiper instance
+        const swiper2 = new Swiper('.mySwiper-2', {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next1',
+                prevEl: '.swiper-button-prev1'
+            }
         });
     </script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

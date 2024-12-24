@@ -47,6 +47,14 @@
     .pb-151 {
         padding-bottom: 60px;
     }
+
+    .max-w-131px {
+        max-width: 100px;
+    }
+
+    .fs-16 {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 640px) {
@@ -89,6 +97,14 @@
 
     .pb-151 {
         padding-bottom: 80px;
+    }
+
+    .max-w-131px {
+        max-width: 131px;
+    }
+
+    .fs-16 {
+        font-size: 16px;
     }
 
 }

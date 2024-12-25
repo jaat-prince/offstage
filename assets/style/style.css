@@ -44,18 +44,6 @@ body {
     border-radius: 50px;
 }
 
-.fs-3 {
-    font-size: 2rem;
-}
-
-.fs-sm-4 {
-    font-size: 2.5rem;
-}
-
-.fs-md-5 {
-    font-size: 3rem;
-}
-
 .max-w-1100px {
     max-width: 1100px;
 }
@@ -310,6 +298,10 @@ body {
     max-width: 749px;
 }
 
+.text-b {
+    color: #222;
+}
+
 .bg-image {
     background-image: url('./../img/png/bg-img.png');
     background-position: center;
@@ -542,4 +534,9 @@ body {
 .event-card p {
     color: #000;
     font-weight: 600;
+}
+
+.br-tr {
+    border: 0px transparent;
+    background-color: transparent;
 }

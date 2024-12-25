@@ -293,4 +293,8 @@
     .sw.top-0 {
         top: 8px !important;
     }
+
+    .custom-btn {
+        padding: 12px 30px;
+    }
 }
